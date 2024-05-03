@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { User, Home, Search } from 'lucide-react'
+import { User, Home, Search } from "lucide-react";
 
 function Header() {
     const [activeItem, setActiveItem] = useState('Home');
